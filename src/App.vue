@@ -71,9 +71,6 @@
     </div>
   
     <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" /> -->
-
-    
-
 </template>
 
 <style>
@@ -98,7 +95,7 @@ body {
 }
 
 .App-header img {
-  width: 100%; 
+  width: 100vw; 
 }
 
 .App-main {
@@ -182,7 +179,7 @@ body {
     grid-template-columns: repeat(2, auto);
     grid-gap: 20px;
   }
-  
+
   .App-download-container img {
     display: block;
     width: 150px;
@@ -190,5 +187,4 @@ body {
     margin: 10px auto;
   }
 }
-
 </style>
