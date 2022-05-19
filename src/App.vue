@@ -19,7 +19,7 @@
 
           <p>Local businesses now have the chance to trade together online to their community as well as in their physical spaces. </p>
           <p>If you are a business you can register here:</p>
-          <button>Register Now</button>
+          <button class="App-register-btn">Register Now</button>
           <!-- {/* link to business registration page */} -->
           <h3>SOLE is available for the following East Lothian regions:</h3>
             <div class="App-county-container">
@@ -69,7 +69,6 @@
       </main>
       <!-- {/* Application FOOTER component HTML code will need to be added here. */} -->
   </div>
-    <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" /> -->
 </template>
 
 <style>
@@ -114,7 +113,7 @@ body {
   cursor: pointer;
 }
 
-.App button {
+.App-register-btn {
   padding: 5px 20px;
   background-color: #6E4D76;
   /* color code taken from SOLE marketing docs */
@@ -164,7 +163,6 @@ body {
 
 @media (max-width: 840px) {
   .App-county-container {
-    display: grid;
     grid-template-columns: repeat(3, auto);
     grid-gap: 20px;
   }
@@ -172,13 +170,12 @@ body {
 
 @media (max-width: 450px) {
   .App-main {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 
   .App-county-container {
-    display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-gap: 20px;
+    grid-gap: 10px;
   }
 
   .App-download-container img {
