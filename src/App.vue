@@ -1,8 +1,8 @@
 <template>
-<div class="App">
-      <header class="App-header">
-        <img alt="SOLE map header" src="./assets/SOLEMapHeader2.png" />
-      </header>
+  <div class="App">
+    <header class="App-header">
+      <img alt="SOLE map header" src="./assets/SOLEMapHeader2.png" />
+    </header>
       <main class="App-main">
         <h1>Welcome to SOLE</h1>
           <p>SOLE is an app for the East Lothian community.</p>
@@ -22,54 +22,53 @@
           <button>Register Now</button>
           <!-- {/* link to business registration page */} -->
           <h3>SOLE is available for the following East Lothian regions:</h3>
-          <div class="App-county-container">
-              <div class="App-county-item">
-                <a href="">
-                  <!-- {/* link to Dunbar town home page */} -->
-                  <img alt="Dunbar map icon" class="App-county-logo" src="./assets/DunbarMapIcon.png" />
-                  <p>Dunbar and East Linton</p> 
-                </a>
-              </div>
-              <div class="App-county-item">
-                <a href="">
-                   <!-- {/* link to Haddington town home page */} -->
-                  <img alt="Haddington map icon" class="App-county-logo" src="./assets/HaddingMapIcon.png"  />
-                  <p>Haddington and Lammermuir</p> 
-                </a>
-              </div>
-              <div class="App-county-item">
-                <a href="">
-                   <!-- {/* link to Musselburgh town home page */} -->
-                  <img alt="Musselburgh map icon" class="App-county-logo" src="./assets/MusselMapIcon.png"  />
-                  <p>Musselburgh</p> 
-                </a>
-              </div>
-              <div class="App-county-item">
-                <a href="">
-                   <!-- {/* link to North Berwick town home page */} -->
-                  <img alt="North Berwick map icon" class="App-county-logo" src="./assets/NBMapIcon.png"  />
-                  <p>North Berwick Coastal</p> 
-                </a>
-              </div>
-              <div class="App-county-item">
-                <a href="">
-                   <!-- {/* link to Preston Seton Gosford town home page */} -->
-                  <img alt="Prestonpans map icon" class="App-county-logo" src="./assets/PrestonMapIcon.png"  />
-                  <p>Preston, Seton and Gosford</p> 
-                </a>
-              </div>
-              <div class="App-county-item">
-                <a href="">
-                   <!-- {/* link to Tranent town home page */} -->
-                  <img alt="Tranent map icon" class="App-county-logo" src="./assets/FaSideMapIcon.png"  />
-                  <p>Fa'side</p> 
-                </a>
-              </div> 
-          </div>
+            <div class="App-county-container">
+                <div class="App-county-item">
+                  <a href="">
+                    <!-- {/* link to Dunbar town home page */} -->
+                    <img alt="Dunbar map icon" class="App-county-logo" src="./assets/DunbarMapIcon.png" />
+                    <p>Dunbar and East Linton</p> 
+                  </a>
+                </div>
+                <div class="App-county-item">
+                  <a href="">
+                    <!-- {/* link to Haddington town home page */} -->
+                    <img alt="Haddington map icon" class="App-county-logo" src="./assets/HaddingMapIcon.png"  />
+                    <p>Haddington and Lammermuir</p> 
+                  </a>
+                </div>
+                <div class="App-county-item">
+                  <a href="">
+                    <!-- {/* link to Musselburgh town home page */} -->
+                    <img alt="Musselburgh map icon" class="App-county-logo" src="./assets/MusselMapIcon.png"  />
+                    <p>Musselburgh</p> 
+                  </a>
+                </div>
+                <div class="App-county-item">
+                  <a href="">
+                    <!-- {/* link to North Berwick town home page */} -->
+                    <img alt="North Berwick map icon" class="App-county-logo" src="./assets/NBMapIcon.png"  />
+                    <p>North Berwick Coastal</p> 
+                  </a>
+                </div>
+                <div class="App-county-item">
+                  <a href="">
+                    <!-- {/* link to Preston Seton Gosford town home page */} -->
+                    <img alt="Prestonpans map icon" class="App-county-logo" src="./assets/PrestonMapIcon.png"  />
+                    <p>Preston, Seton and Gosford</p> 
+                  </a>
+                </div>
+                <div class="App-county-item">
+                  <a href="">
+                    <!-- {/* link to Tranent town home page */} -->
+                    <img alt="Tranent map icon" class="App-county-logo" src="./assets/FaSideMapIcon.png"  />
+                    <p>Fa'side</p> 
+                  </a>
+                </div> 
+            </div>
       </main>
       <!-- {/* Application FOOTER component HTML code will need to be added here. */} -->
-    </div>
-  
+  </div>
     <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" /> -->
 </template>
 
