@@ -117,6 +117,7 @@ body {
 .App button {
   padding: 5px 20px;
   background-color: #6E4D76;
+  /* color code taken from SOLE marketing docs */
   color: white;
   border: solid 1px white;
   border-radius: 5px;
@@ -146,6 +147,7 @@ body {
   margin: 0;
   font-size: 16px;
   color: #6E4D76;
+  /* color code taken from SOLE marketing docs */
   line-height: normal;
 }
 
@@ -155,7 +157,7 @@ body {
 }
 
 .App-county-logo {
-  height: 125px;
+  height: 120px;
 }
 
 /* RESPONSIVE RULES FOR VIEWING ON MOBILE DEVICES */
