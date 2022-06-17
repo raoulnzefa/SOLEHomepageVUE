@@ -1,15 +1,13 @@
 <template>
   <div class="App">
     <header class="App-header">
-      <img alt="SOLE map header" src="./assets/SOLEMapHeader2.png" />
+      <img alt="SOLE map header" src="./assets/SOLEMapHeader.png" />
     </header>
       <main class="App-main">
         <h1>Welcome to SOLE</h1>
-          <p>SOLE is an app for the East Lothian community.</p>
           <p>SOLE provides an easy-to-use online shopping and community experience to rediscover and connect with local shops, services and amenities.</p>
           <p>Download the app today to browse and shop, book activities or events, find a local service, join a group, keep up with local news or go on a trail.</p>
-          <p>The SOLE app is packed with special offers, competitions and promotions.</p>
-
+  
             <div class="App-download-container">
               <img alt="Apple Store download button" src="./assets/AppleStore.png"  />
               <!-- {/* link to Apple App Store URL */} -->
@@ -17,9 +15,10 @@
               <!-- {/* link to Google Play Store URL */} -->
             </div>
 
+          <p>The SOLE app is packed with special offers, competitions and promotions.</p>
           <p>Local businesses now have the chance to trade together online to their community as well as in their physical spaces. </p>
-          <p>If you are a business you can register here:</p>
-          <button class="App-register-btn">Register Now</button>
+          <p>To start using SOLE as an individual or a business, click on your area link below and register today.</p>
+          <!-- <button class="App-register-btn">Register Now</button> -->
           <!-- {/* link to business registration page */} -->
           <h3>SOLE is available for the following East Lothian regions:</h3>
             <div class="App-county-container">
@@ -76,8 +75,9 @@
 
 * {
   text-align: center;
-  line-height: 2;
+  line-height: 1.5;
   font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
   /* This font-family has been imported from Google fonts. */
 }
 
@@ -100,13 +100,17 @@ body {
   padding: 0 20px;
 }
 
+h1 {
+  margin: 0;
+}
+
 .App-download-container {
-  margin: 15px 0px; 
+
 }
 
 .App-download-container img {
   height: 50px;
-  margin: 10px;
+  margin: 20px 10px 10px 10px;
 }
 
 .App-download-container img:hover {
