@@ -9,10 +9,15 @@
           <p>Download the app today to browse and shop, book activities or events, find a local service, join a group, keep up with local news or go on a trail.</p>
   
             <div class="App-download-container">
-              <img alt="Apple Store download button" src="./assets/AppleStore.png"  />
+              <a href="https://apps.apple.com/us/app/sole-scot/id1553277615" target="_blank">
+              <img alt="Apple Store download button" src="./assets/AppleStore.png"/>
               <!-- {/* link to Apple App Store URL */} -->
+              </a>
+
+              <a href="https://play.google.com/store/apps/details?id=com.ocs.sole.app" target="_blank">              
               <img alt="Google Play Store download button" src="./assets/GoogleStore.png"  />
               <!-- {/* link to Google Play Store URL */} -->
+              </a>
             </div>
 
           <p>The SOLE app is packed with special offers, competitions and promotions.</p>
@@ -23,42 +28,42 @@
           <h3>SOLE is available for the following East Lothian regions:</h3>
             <div class="App-county-container">
                 <div class="App-county-item">
-                  <a href="">
+                  <a href="https://www.sole.scot/Dunbar">
                     <!-- {/* link to Dunbar town home page */} -->
                     <img alt="Dunbar map icon" class="App-county-logo" src="./assets/DunbarMapIcon.png" />
                     <p>Dunbar and East Linton</p> 
                   </a>
                 </div>
                 <div class="App-county-item">
-                  <a href="">
+                  <a href="https://www.sole.scot/Haddington">
                     <!-- {/* link to Haddington town home page */} -->
                     <img alt="Haddington map icon" class="App-county-logo" src="./assets/HaddingMapIcon.png"  />
                     <p>Haddington and Lammermuir</p> 
                   </a>
                 </div>
                 <div class="App-county-item">
-                  <a href="">
+                  <a href="https://www.sole.scot/Musselburgh">
                     <!-- {/* link to Musselburgh town home page */} -->
                     <img alt="Musselburgh map icon" class="App-county-logo" src="./assets/MusselMapIcon.png"  />
                     <p>Musselburgh</p> 
                   </a>
                 </div>
                 <div class="App-county-item">
-                  <a href="">
+                  <a href="https://www.sole.scot/NorthBerwick">
                     <!-- {/* link to North Berwick town home page */} -->
                     <img alt="North Berwick map icon" class="App-county-logo" src="./assets/NBMapIcon.png"  />
                     <p>North Berwick Coastal</p> 
                   </a>
                 </div>
                 <div class="App-county-item">
-                  <a href="">
+                  <a href="https://www.sole.scot/PrestonSetonGosford">
                     <!-- {/* link to Preston Seton Gosford town home page */} -->
                     <img alt="Prestonpans map icon" class="App-county-logo" src="./assets/PrestonMapIcon.png"  />
                     <p>Preston, Seton and Gosford</p> 
                   </a>
                 </div>
                 <div class="App-county-item">
-                  <a href="">
+                  <a href="https://www.sole.scot/Tranent">
                     <!-- {/* link to Tranent town home page */} -->
                     <img alt="Tranent map icon" class="App-county-logo" src="./assets/FaSideMapIcon.png"  />
                     <p>Fa'side</p> 
@@ -160,7 +165,7 @@ h1 {
 }
 
 .App-county-logo {
-  height: 120px;
+  height: 100px;
 }
 
 /* RESPONSIVE RULES FOR VIEWING ON MOBILE DEVICES */
