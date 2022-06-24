@@ -77,11 +77,8 @@
                     <p class="App-footer-log-text">This project is funded by the UK Government through the UK Community Renewal Fund.</p> 
                 </div>
                 <div class="App-footer-item">
-                  <a href="https://www.sole.scot/Tranent">
-                    <!-- {/* link to Tranent town home page */} -->
-                    <img alt="Tranent map icon" class="App-footer-logo" src="./assets/FaSideMapIcon.png"  />
-                    <p>Fa'side</p> 
-                  </a>
+                    <img alt="East Lothian Council Logo" class="App-footer-logo" src="./assets/ELCLogo.png"  />
+                    <!-- <p>Fa'side</p> -->
                 </div> 
               </div>
             </footer>
@@ -183,7 +180,7 @@ h1 {
 }
 
 .App-footer {
-  
+  /* background-color: black; */
 }
 .App-footer-container {
   display: grid;
@@ -201,7 +198,7 @@ h1 {
   
 }
 .App-footer-logo {
-  height:80px;
+  height:60px;
   /* justify-items: start; */
   text-align: start;
 }
