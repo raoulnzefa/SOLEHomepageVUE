@@ -15,7 +15,7 @@
               </a>
 
               <a href="https://play.google.com/store/apps/details?id=com.ocs.sole.app" target="_blank">              
-              <img alt="Google Play Store download button" src="./assets/GoogleStore.png"  />
+              <img alt="Google Play Store download button" src="./assets/GoogleStore2.png"  />
               <!-- {/* link to Google Play Store URL */} -->
               </a>
             </div>
@@ -70,8 +70,22 @@
                   </a>
                 </div> 
             </div>
+            <footer class="App-footer">
+              <div class="App-footer-container">
+              <div class="App-footer-item">
+                    <img alt="UK Government Logo" class="App-footer-logo" src="./assets/UKGovLogo2.png"  />
+                    <p class="App-footer-log-text">This project is funded by the UK Government through the UK Community Renewal Fund.</p> 
+                </div>
+                <div class="App-footer-item">
+                  <a href="https://www.sole.scot/Tranent">
+                    <!-- {/* link to Tranent town home page */} -->
+                    <img alt="Tranent map icon" class="App-footer-logo" src="./assets/FaSideMapIcon.png"  />
+                    <p>Fa'side</p> 
+                  </a>
+                </div> 
+              </div>
+            </footer>
       </main>
-      <!-- {/* Application FOOTER component HTML code will need to be added here. */} -->
   </div>
 </template>
 
@@ -166,6 +180,35 @@ h1 {
 
 .App-county-logo {
   height: 100px;
+}
+
+.App-footer {
+  
+}
+.App-footer-container {
+  display: grid;
+  /* grid-template-columns: repeat(2, auto); */
+  grid-template-columns: 1fr 1fr;
+
+  grid-gap: 15px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 60vw;
+  margin: 20px auto 50px auto;
+}
+.App-footer-item {
+  text-align: start;
+  
+}
+.App-footer-logo {
+  height:80px;
+  /* justify-items: start; */
+  text-align: start;
+}
+
+.App-footer-log-text {
+  margin: 0;
+  text-align: start;
 }
 
 /* RESPONSIVE RULES FOR VIEWING ON MOBILE DEVICES */
