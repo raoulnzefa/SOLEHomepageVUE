@@ -70,14 +70,15 @@
                   </a>
                 </div> 
             </div>
+            <hr />
             <footer class="App-footer">
               <div class="App-footer-container">
-              <div class="App-footer-item">
-                    <img alt="UK Government Logo" class="App-footer-logo" src="./assets/UKGovLogo2.png"  />
-                    <p class="App-footer-log-text">This project is funded by the UK Government through the UK Community Renewal Fund.</p> 
+              <div class="App-footer-item-gov">
+                    <img alt="UK Government Logo" class="App-footer-logo-UKGov" src="./assets/UKGovLogo2.png"  />
+                    <p class="App-footer-logo-text">This project is funded by the UK Government through the UK Community Renewal Fund.</p> 
                 </div>
-                <div class="App-footer-item">
-                    <img alt="East Lothian Council Logo" class="App-footer-logo" src="./assets/ELCLogo.png"  />
+                <div class="App-footer-item-elc">
+                    <img alt="East Lothian Council Logo" class="App-footer-logo-ELC" src="./assets/ELCLogo.png"  />
                     <!-- <p>Fa'side</p> -->
                 </div> 
               </div>
@@ -91,7 +92,7 @@
 
 * {
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.25;
   font-family: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
   /* This font-family has been imported from Google fonts. */
@@ -182,30 +183,42 @@ h1 {
 .App-footer {
   /* background-color: black; */
 }
+
 .App-footer-container {
   display: grid;
-  /* grid-template-columns: repeat(2, auto); */
-  grid-template-columns: 1fr 1fr;
-
+  grid-template-columns: 1.5fr 1fr;
   grid-gap: 15px;
-  /* justify-content: center; */
-  /* align-items: center; */
-  width: 60vw;
-  margin: 20px auto 50px auto;
+  width: 50vw;
+  margin: 40px auto 50px auto;
 }
-.App-footer-item {
-  text-align: start;
-  
-}
-.App-footer-logo {
-  height:60px;
-  /* justify-items: start; */
+
+.App-footer-item-gov {
   text-align: start;
 }
 
-.App-footer-log-text {
+.App-footer-item-elc {
+  text-align: end;
+  align-self: center;
+}
+
+.App-footer-logo-UKGov {
+  height:50px;
+}
+
+.App-footer-logo-ELC {
+  height:65px;
+}
+
+.App-footer-logo-text {
   margin: 0;
   text-align: start;
+  font-size: 12px;
+  color: black;
+}
+
+hr {
+  color: #6E4D76;
+  width: 90vw;
 }
 
 /* RESPONSIVE RULES FOR VIEWING ON MOBILE DEVICES */
