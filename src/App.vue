@@ -1,7 +1,13 @@
 <template>
   <div class="App">
     <header class="App-header">
-      <img alt="SOLE map header" src="./assets/SOLEMapHeader.png" />
+      <picture>
+        <source srcset="./assets/SOLEMapHeaderSlim.png" media="(min-width: 768px)">
+        <source srcset="./assets/SOLEMapHeaderFull.png" media="(min-width: 200px)">
+        <img src="./assets/SOLEMapHeaderSlim.png" alt="SOLE Map Header" />
+      </picture>
+
+      <!-- <img alt="SOLE map header" src="./assets/SOLEMapHeaderSlim.png" /> -->
     </header>
       <main class="App-main">
         <h1>Welcome to SOLE</h1>
@@ -11,20 +17,17 @@
             <div class="App-download-container">
               <a href="https://apps.apple.com/us/app/sole-scot/id1553277615" target="_blank">
               <img alt="Apple Store download button" src="./assets/AppleStore.png"/>
-              <!-- {/* link to Apple App Store URL */} -->
               </a>
 
               <a href="https://play.google.com/store/apps/details?id=com.ocs.sole.app" target="_blank">              
               <img alt="Google Play Store download button" src="./assets/GoogleStore2.png"  />
-              <!-- {/* link to Google Play Store URL */} -->
               </a>
             </div>
 
           <p>The SOLE app is packed with special offers, competitions and promotions.</p>
           <p>Local businesses now have the chance to trade together online to their community as well as in their physical spaces. </p>
           <p>To start using SOLE as an individual or a business, click on your area link below and register today.</p>
-          <!-- <button class="App-register-btn">Register Now</button> -->
-          <!-- {/* link to business registration page */} -->
+         
           <h3>SOLE is available for the following East Lothian regions:</h3>
             <div class="App-county-container">
                 <div class="App-county-item">
@@ -79,7 +82,6 @@
                 </div>
                 <div class="App-footer-item-elc">
                     <img alt="East Lothian Council Logo" class="App-footer-logo-ELC" src="./assets/ELCLogo.png"  />
-                    <!-- <p>Fa'side</p> -->
                 </div> 
               </div>
             </footer>
@@ -188,7 +190,7 @@ h1 {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 15px;
-  width: 50vw;
+  width: 30vw;
   margin: 40px auto 50px auto;
 }
 
@@ -218,16 +220,31 @@ h1 {
 
 hr {
   color: #6E4D76;
-  width: 90vw;
+  width: 80vw;
 }
 
 /* RESPONSIVE RULES FOR VIEWING ON MOBILE DEVICES */
+
+@media (max-width: 1200px) {
+  .App-footer-container {
+    grid-gap: 10px;
+    width: 50vw;
+  }
+}
+  
 
 @media (max-width: 840px) {
   .App-county-container {
     grid-template-columns: repeat(3, auto);
     grid-gap: 20px;
   }
+  .App-footer-container {
+    grid-gap: 10px;
+    width: 70vw;
+}
+.App-footer-logo-ELC {
+  height:60px;
+}
 }
 
 @media (max-width: 450px) {
@@ -246,5 +263,12 @@ hr {
     height: auto;
     margin: 10px auto;
   }
+  .App-footer-container {
+  width: 85vw;
+  margin: 40px auto 50px auto;
+}
+.App-footer-logo-ELC {
+  height:50px;
+}
 }
 </style>
