@@ -2,12 +2,9 @@
   <div class="App">
     <header class="App-header">
       <picture>
-        <source srcset="./assets/SOLEMapHeaderSlim.png" media="(min-width: 768px)">
-        <source srcset="./assets/SOLEMapHeaderFull.png" media="(min-width: 200px)">
-        <img src="./assets/SOLEMapHeaderSlim.png" alt="SOLE Map Header" />
+        <source srcset="./assets/SOLEMapHeaderSlim.png" media="(min-width: 800px)">
+        <img src="./assets/SOLEMapHeaderFull.png" alt="SOLE Map Header" />
       </picture>
-
-      <!-- <img alt="SOLE map header" src="./assets/SOLEMapHeaderSlim.png" /> -->
     </header>
       <main class="App-main">
         <h1>Welcome to SOLE</h1>
@@ -26,7 +23,7 @@
 
           <p>The SOLE app is packed with special offers, competitions and promotions.</p>
           <p>Local businesses now have the chance to trade together online to their community as well as in their physical spaces. </p>
-          <p>To start using SOLE as an individual or a business, click on your area link below and register today.</p>
+          <p>To start using SOLE as an individual or a business, either click on your area link below or register on the app today.</p>
          
           <h3>SOLE is available for the following East Lothian regions:</h3>
             <div class="App-county-container">
@@ -94,7 +91,7 @@
 
 * {
   text-align: center;
-  line-height: 1.25;
+  line-height: 1.2;
   font-family: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
   /* This font-family has been imported from Google fonts. */
@@ -136,22 +133,6 @@ h1 {
   cursor: pointer;
 }
 
-.App-register-btn {
-  padding: 5px 20px;
-  background-color: #6E4D76;
-  /* color code taken from SOLE marketing docs */
-  color: white;
-  border: solid 1px white;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 15px 0px;
-}
-
-.App button:hover {
-  background-color: #493557;
-  /* color code taken from SOLE marketing docs */
-}
-
 .App-county-container {
   display: grid;
   grid-template-columns: repeat(6, auto);
@@ -182,20 +163,17 @@ h1 {
   height: 100px;
 }
 
-.App-footer {
-  /* background-color: black; */
-}
-
 .App-footer-container {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 15px;
-  width: 30vw;
+  width: 40vw;
   margin: 40px auto 50px auto;
 }
 
 .App-footer-item-gov {
   text-align: start;
+  align-self: center;
 }
 
 .App-footer-item-elc {
@@ -219,8 +197,8 @@ h1 {
 }
 
 hr {
-  color: #6E4D76;
-  width: 80vw;
+  border-top: 1px solid #6E4D76;
+  width: 90vw;
 }
 
 /* RESPONSIVE RULES FOR VIEWING ON MOBILE DEVICES */
@@ -241,10 +219,10 @@ hr {
   .App-footer-container {
     grid-gap: 10px;
     width: 70vw;
-}
-.App-footer-logo-ELC {
-  height:60px;
-}
+  }
+  .App-footer-logo-ELC {
+    height:60px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -266,9 +244,9 @@ hr {
   .App-footer-container {
   width: 85vw;
   margin: 40px auto 50px auto;
-}
-.App-footer-logo-ELC {
+  }
+  .App-footer-logo-ELC {
   height:50px;
-}
+  }
 }
 </style>
